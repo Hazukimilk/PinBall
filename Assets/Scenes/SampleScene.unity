@@ -1418,7 +1418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -300, y: -50}
+  m_AnchoredPosition: {x: -250, y: -50}
   m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105483661
@@ -1476,6 +1476,7 @@ GameObject:
   - component: {fileID: 1194506378}
   - component: {fileID: 1194506377}
   - component: {fileID: 1194506382}
+  - component: {fileID: 1194506383}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1583,6 +1584,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03c997174e45094a9e6c4f3ba4467b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1194506383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194506376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cac58cca177c64489743bda5c16b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1290003384
